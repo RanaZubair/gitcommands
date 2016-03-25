@@ -1,0 +1,23 @@
+If many people are working on a project then it will be deal with
+branches.
+
+command 1: git branch
+		(This command list down all branches in repository)
+
+command 2: git branch my_branch
+		(my_branch is the branch name here)
+
+command 3: git checkout my_branch
+		(checkout is used to goto the specific branch
+		here we are moving from master to my_branch)
+		
+Note: commit remains in the branch with which it is related to.
+
+command 4: git branch -d my_branch
+		(-d deletes the specific branch)
+		
+command 5: git branch -D my_branch
+		(-D force delte the specific branch)
+
+command 6: git checkout -b my_new_branch
+		(b flag creates and checkout newbranch)
