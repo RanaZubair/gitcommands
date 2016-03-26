@@ -2,3 +2,9 @@
 Fork means copy of the origional repository, people usually 
 copy the origional project and make any type of experiment with 
 it.
+
+rm file1.txt
+
+git commit -a -m "Deleting files"
+
+git push origin master

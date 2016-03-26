@@ -61,3 +61,10 @@ command 9:
 command 10:	
 		git pull origin master
 		(pull command is used to fetch repository from github. master is branch name)
+		
+command 11:
+			(Deleting file from local repo , commit it and 
+			then push it to server)
+			rm file1.txt
+			git commit -a -m "Deleting files"
+			git push origin master
