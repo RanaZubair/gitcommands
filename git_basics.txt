@@ -1,0 +1,63 @@
+/*---------------------------------------------------------------
+git is program offered by github and it is used to manage projects 
+the tracking of projects. 
+*/
+
+/*---------------------------------------------------------------
+git has three areas working area, staging area and repository
+*/
+
+/*These are the basic commands easy to use.*/
+
+Command 1:
+		git --version 
+
+		(to check version of git bash program installed on your 
+		machine)
+Command 2:
+		git --v 
+
+		(short form to check git version)
+Command 3:
+		git init my-repository 
+
+		(init means initialize this commands is used to start or initialize 
+		any repositry, when you use this command git start tracking of your 
+		project.)
+Command 4:
+		git add readme
+		or
+		git add index.html
+		
+		(add command is used to place repsitory from working area to staging
+		area.)
+
+Command 5:
+		git commit -m "first commit"
+		
+		(commit command place your project from staging area to repository)
+
+Command 6:
+		git config --global user.name "your username" user.email "your email"
+
+Command 7:
+		git status
+		
+		(status commands describe the status means if file is red means it is
+		in working area, if file is green it is staging area, if the is a message
+		means it a repository with commit now)
+Command 8:
+		git remote add origin  https://github.com/your_username/your_repository.git
+		
+		(This commands is used to upload local repository to liveserver 
+		means github.com origin is anyname which is given so simplicity
+		we use this name origin in the below command to upload in this
+		repository)
+command 9:
+		git push -u origin master
+
+		(git push command uploads local repository to github.com
+		origin is the name of url which we gave in remote command)
+command 10:	
+		git pull origin master
+		(pull command is used to fetch repository from github. master is branch name)
