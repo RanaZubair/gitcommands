@@ -68,3 +68,5 @@ command 11:
 			rm file1.txt
 			git commit -a -m "Deleting files"
 			git push origin master
+command 12: 	git clone http://github.com/username/repo
+		(git clone command is used to clone a whole repository from github)
