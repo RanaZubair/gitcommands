@@ -59,6 +59,8 @@ command 9:
 		(git push command uploads local repository to github.com
 		origin is the name of url which we gave in remote command)
 command 10:	
+		git remote add origin "http://github.com/user/repository"
+		git fetch --all
 		git pull origin master
 		(pull command is used to fetch repository from github. master is branch name)
 		
@@ -69,4 +71,6 @@ command 11:
 			git commit -a -m "Deleting files"
 			git push origin master
 command 12: 	git clone http://github.com/username/repo
-		(git clone command is used to clone a whole repository from github)
+
+		(git clone command is used to clone a whole repository from github
+		git clone downloades the whole branches including master)
