@@ -4,6 +4,9 @@ branches.
 command 1: git branch
 		(This command list down all branches in repository)
 
+command 1.1: git branch -a
+		(list down all branches in git repository)
+
 command 2: git branch my_branch
 		(my_branch is the branch name here)
 
