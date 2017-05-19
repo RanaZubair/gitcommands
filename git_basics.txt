@@ -53,6 +53,19 @@ Command 8:
 		means github.com origin is anyname which is given so simplicity
 		we use this name origin in the below command to upload in this
 		repository)
+
+Command 8.1:	
+		git remote -v
+		
+		(This git command is used to list down all git remotes in a git repository.)
+
+Command 8.2:
+		git remote rm destination
+		
+		(This command is used to remove a remove from git repository. Then we can use 
+		git remote -v command to list down all remotes in the repository, git remote rm
+		may gave error while deleting if remote doesn't exists. )
+
 command 9:
 		git push -u origin master
 
