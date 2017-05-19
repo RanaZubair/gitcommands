@@ -87,3 +87,12 @@ command 12: 	git clone http://github.com/username/repo
 
 		(git clone command is used to clone a whole repository from github
 		git clone downloades the whole branches including master)
+
+command 13:	Pull request are used to compare forks, branches or repos we can discuess the
+		potential changes will colaborators and then they might be merged.
+		
+		1. Navigate to the main page of the repository.
+		2. In branch menu choose the branch that have commits
+		3. click "New Pull request"
+		4. Use compare branch drop down menu
+		5. Type the tile and description for pull request. Click "Create Pull Request"
