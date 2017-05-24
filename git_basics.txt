@@ -96,3 +96,7 @@ command 13:	Pull request are used to compare forks, branches or repos we can dis
 		3. click "New Pull request"
 		4. Use compare branch drop down menu
 		5. Type the tile and description for pull request. Click "Create Pull Request"
+
+command 14:	git log command is used to view commit log or the commits.
+		use q key to exit from this command other wise system may
+		appear hanging.
