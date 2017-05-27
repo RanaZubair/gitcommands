@@ -8,6 +8,7 @@ command 1.1: git branch -a
 		(list down all branches in git repository)
 
 command 2: git branch my_branch
+		This command is used to create new branch.	
 		(my_branch is the branch name here)
 
 command 3: git checkout my_branch

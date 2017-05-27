@@ -97,6 +97,10 @@ command 13:	Pull request are used to compare forks, branches or repos we can dis
 		4. Use compare branch drop down menu
 		5. Type the tile and description for pull request. Click "Create Pull Request"
 
+command 13.1:	git pull origin master
+		(This command is used to update a local git repo with the remote git repository.
+		It will first use the fetch command and then merge all branches and changes in the local repo.
+
 command 14:	git log command is used to view commit log or the commits.
 		use q key to exit from this command other wise system may
 		appear hanging.
