@@ -7,9 +7,16 @@ it.
 
 
 /*
+1.
+
 rm file1.txt
 
 git commit -a -m "Deleting files"
 
 git push origin master
 */
+
+2. ".gitignore" is a file in the git repo which ignore specific
+   folders are file. These files and folder remains untracked
+   e.g PHPStorm, Pycharm, RunyMine these IDEs create a folder 
+   named ".idea" we can add this folder in ".gitignore".
