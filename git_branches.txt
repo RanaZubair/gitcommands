@@ -25,3 +25,23 @@ command 5: git branch -D my_branch
 
 command 6: git checkout -b my_new_branch
 		(b flag creates and checkout newbranch)
+
+command 7: git push origin branch_name
+		(push command for a specific branch)
+
+command 8: git merge master
+		(To merge master branch in this branch)
+
+command 9: git checkout master
+		(To goto the master branch)
+
+command 10:git merge branch_name
+		(This will merge branch_name into master) 
+
+command 11:git merge --no-ff branch_name
+		(--no-ff flag is used to keep track who did the
+		merge and when? Because we merge master with our 
+		branch multiple time and these commits are of no use)
+
+		(so we have to use this when we merge any_branch into
+		the master branch so we can keep track.)
